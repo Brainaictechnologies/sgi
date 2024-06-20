@@ -1,0 +1,2407 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- logo icon on title -->
+    <link rel="icon" href="/images/fav-icon.png" type="image/svg" />
+    <title>SGI - Steveraton Group Incorporated</title>
+  </head>
+  <body class="bg-dark">
+    <!-- navbar section -->
+    <header class="">
+      <!-- navbar-section -->
+      <div class="navbar-section">
+        <div class="Logo-brand web">
+          <img
+            style="width: 120px !important; padding-bottom: 24px"
+            onclick="location.href='/'"
+            src="/images/steve.svg"
+            class="w-75"
+            alt=""
+          />
+        </div>
+
+        <div class="nav-components">
+          <ul id="web">
+            <li id="open-onhover" class="text-light">
+              <a id="first" href="#" class="text-decoration-none text-light">
+                About Us <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+              <div class="sub-menu-1">
+                <ul id="links-hover" class="">
+                  <div class="split-left w-25">
+                    <li class="sublinks">
+                      <a
+                        href="/about"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Who We Are
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                    <!-- <li class="sublinks">
+                      <a
+                        href="leadership.html"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Leadership
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li> -->
+                    <li class="sublinks">
+                      <a
+                        href="/about#sgi-milestone"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >SGI Milestone
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                  </div>
+
+                  <div class="split-right w-25">
+                    <li class="sublinks">
+                      <a
+                        href="/csr"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >CSR
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                  </div>
+                </ul>
+
+                <div
+                  id="down"
+                  class="d-flex justify-content-between align-items-center sub-animate web"
+                >
+                  <div class="logo">
+                    <img
+                      onclick="location.href='/'"
+                      style="width: 80px"
+                      src="/images/steve.svg"
+                      alt=""
+                    />
+                  </div>
+                  <!-- <div class="animation">
+                  <img class="w-75" src="images/animated.png" alt="" />
+                </div> -->
+                  <iframe
+                    id="mart"
+                    onclick="location.href='/about'"
+                    style="width: 200px !important; transform: rotate(20deg)"
+                    src="https://lottie.host/?file=bd905567-5e4b-418e-8f01-ca42ebc33634/a58P2XFCEk.json"
+                    frameborder="0"
+                    class="web"
+                  ></iframe>
+                </div>
+              </div>
+            </li>
+
+            <li id="view-onhover" class="text-light">
+              <a href="#" class="text-decoration-none text-light"
+                >Our Businesses <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+              <div class="sub-menu-1">
+                <ul id="links-hover" class="">
+                  <div class="split-left">
+                    <li class="sublinks">
+                      <a
+                        href="/autotech"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Autotech
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >The African auto industry has experienced..</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/technology"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Technology
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >At Brainiac, we're dedicated to ...</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/export"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Export
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >We provide tailored export ...</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/energy"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Energy
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >Explore our cleean energy prowess with ...</span
+                      >
+                    </li>
+                  </div>
+
+                  <div class="split-right w-50">
+                    <li class="sublinks">
+                      <a
+                        href="/finance"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Finance
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >We provide tailored financial services</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/media-marvel"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Media Advertising
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >Advox Consulting, where creativity meets impact!</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/real-estate"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Real Estate
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >At Sgi, we believe that owning a home</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/mining"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Mining
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >The future of innovation is today ...</span
+                      >
+                    </li>
+                  </div>
+                </ul>
+
+                <div
+                  id="down"
+                  class="d-flex justify-content-between align-items-center sub-animate2 web"
+                >
+                  <div class="logo">
+                    <img
+                      onclick="location.href='/'"
+                      style="width: 80px"
+                      src="images/steve.svg"
+                      alt=""
+                    />
+                  </div>
+                  <!-- <div class="animation">
+                    <img class="w-75" src="images/animated.png" alt="" />
+                  </div> -->
+                  <iframe
+                    id="mart"
+                    onclick="location.href='/about'"
+                    style="width: 200px !important; transform: rotate(20deg)"
+                    src="https://lottie.host/?file=bd905567-5e4b-418e-8f01-ca42ebc33634/a58P2XFCEk.json"
+                    frameborder="0"
+                    class="web"
+                  ></iframe>
+                </div>
+              </div>
+            </li>
+
+            <li id="drop-onhover" class="text-light d-none">
+              <a href="#" class="text-decoration-none text-light">
+                Investor Relations <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+              <div class="sub-menu-1">
+                <ul id="links-hover" class="">
+                  <div class="split-left">
+                    <li class="sublinks">
+                      <a
+                        href="/performance"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Performance Report
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/report"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >2022 Report
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                  </div>
+                </ul>
+
+                <div
+                  id="down"
+                  class="d-flex justify-content-between align-items-center sub-animate3 web"
+                >
+                  <div class="logo">
+                    <img style="width: 80px" src="images/steve.svg" alt="" />
+                  </div>
+                  <div class="animation">
+                    <img class="w-75" src="images/animated.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="text-light">
+              <a href="/sustainability" class="text-decoration-none text-light"
+                >Sustainability</a
+              >
+            </li>
+
+            <li class="text-light">
+              <a href="/careers" class="text-decoration-none text-light"
+                >Careers</a
+              >
+            </li>
+
+            <li id="last" class="text-light">
+              <a href="/contact" class="text-decoration-none text-light"
+                >Contact Us</a
+              >
+            </li>
+            <li id="last" class="text-light">
+              <a href="/blog" class="text-decoration-none text-light">Blog</a>
+            </li>
+          </ul>
+
+          <ul id="mob" class="">
+            <li id="reveal" class="text-light">
+              <a href="#" class="text-light text-decoration-none"
+                >About Us <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+
+              <ul id="x1" class="ms-5">
+                <li class="sublinks">
+                  <a
+                    href="/about"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >Who We Are
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+                <!-- <li class="sublinks">
+                  <a
+                    href="leadership.html"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >Leadership
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li> -->
+                <li class="sublinks">
+                  <a
+                    href="/about#sgi-milestone"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >SGI Milestone
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+                <li class="sublinks">
+                  <a
+                    href="/csr"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >CSR
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+
+            <li id="shown" class="text-light">
+              <a href="#" class="text-light text-decoration-none"
+                >Our Businesses <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+
+              <ul id="y2" class="ms-5">
+                <div class="flex-wrap">
+                  <div class="row">
+                    <div class="col">
+                      <li class="sublinks">
+                        <a
+                          href="/autotech"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Autotech
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/technology"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Technology
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/export"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Export
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/energy"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Energy
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                    </div>
+                    <div class="col">
+                      <li class="sublinks">
+                        <a
+                          href="/finance"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Finance
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/media-marvel"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Media Advertising
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/real-estate"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Real Estate
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/mining"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Mining
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+            <li id="drop" class="text-light d-none">
+              <a href="#" class="text-light text-decoration-none"
+                >Investor Relations <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+
+              <ul id="z3" class="ms-5">
+                <li class="sublinks">
+                  <a
+                    href="/performance"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >Performance Report
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+                <li class="sublinks">
+                  <a
+                    href="/report"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >2022 Report
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="taxt-light">
+              <a href="/sustainability" class="text-light text-decoration-none"
+                >Sustainability</a
+              >
+            </li>
+            <li class="taxt-light">
+              <a href="/careers" class="text-light text-decoration-none"
+                >Careers</a
+              >
+            </li>
+            <li class="taxt-light">
+              <a href="/contact" class="text-light text-decoration-none"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="covid-restrictions web">
+          <marquee class="covid-text">
+            <div class="marquee-content">
+              <p class="p-0 m-0 text-light">
+                *Eid Al Fitr to all our Muslim Family*
+              </p>
+              <p class="p-0 m-0 text-light">
+                *Eid Al Fitr to all our Muslim Family*
+              </p>
+              <p class="p-0 m-0 text-light">
+                *Eid Al Fitr to all our Muslim Family*
+              </p>
+              <p class="p-0 m-0 text-light">
+                *Eid Al Fitr to all our Muslim Family*
+              </p>
+            </div>
+          </marquee>
+        </div>
+
+        <div
+          style="background-color: #111c24"
+          class="w-100 mobile d-flex align-items-center justify-content-between position-absolute"
+        >
+          <div id="mobile" class="mobile brand p-3 ps-4">
+            <img
+              style="width: 150px"
+              onclick="location.href='/'"
+              src="images/steve.svg"
+              class="text-light"
+              alt=""
+            />
+          </div>
+
+          <div class="icon-box align-items-center ms-auto">
+            <i class="bx bx-menu" id="menu-icon"></i>
+          </div>
+          <div class="covid-restrictions mobile">
+            <marquee class="mb-0 text-light">
+              Happy Ramadan Kareem to all Our Muslim Family
+            </marquee>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-content w-100">
+        <div id="industries" class="flex-wrap align-items-start web">
+          <div class="row justify-content-between">
+            <div
+              id="identifiers"
+              style="width: 400px"
+              class="col-md-4 d-flex align-items-start gap-3"
+            >
+              <div id="spiral" class="spiral">
+                <img src="images/spiral.png" alt="" class="" />
+              </div>
+
+              <div class="text-light">
+                <h1 class="">Agricultural Exports</h1>
+                <p class="pt-3 pb-5 fs-5">
+                  <span class="fw-bold fs-4">TransAgro</span> is Dedicated to
+                  reshaping the agricultural landscape and revolutionizing the
+                  Agro Export Industry.
+                </p>
+                <a
+                  href="/trance-agro"
+                  class="pb-5 mb-5 text-decoration-none text-light align-items-center d-flex"
+                  >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                ></a>
+              </div>
+            </div>
+
+            <div
+              id="unique"
+              style="width: 400px"
+              class="col-md-4 d-flex align-items-start gap-3"
+            >
+              <div id="secspiral" class="spiral">
+                <img src="images/spiral.png" alt="" class="" />
+              </div>
+              <div class="text-light">
+                <h1 class="">Automotive Aggregator</h1>
+                <p class="pt-3 pb-3 fs-5">
+                  <span class="fw-bold fs-4">AutoBuy</span> is committed to
+                  prioritizing your safety pre & post purchase process,
+                  <br />providing you with peace of mind when making your
+                  purchase.
+                </p>
+                <a href="/autobuy" class="text-decoration-none text-light"
+                  >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div
+          style="background-color: #111c24"
+          class="pop-up-card text-light p-5 mt-3"
+        >
+          <div
+            id="max"
+            class="d-flex align-items-start justify-content-between ps-5"
+          >
+            <p id="web" class="text-start fs-5 fw-light">
+              This website uses cookies. For further information on how we use
+              cookies you can read our
+              <a class="text-light fw-bold text-decoration-none" href="/privacy"
+                >privacy</a
+              >
+              and
+              <a
+                class="text-light fw-bold text-decoration-none"
+                href="/cookies-policy"
+                >cookies notice.</a
+              ><br />
+              By continuing to browse the site you are agreeing to our use of
+              cookies.
+            </p>
+            <p
+              style="color: #f74713"
+              id="mob"
+              class="text-center fs-6 fw-light"
+            >
+              Before continuing to use our site, we would like you to consider
+              opting in to the use of cookies in line with our Data Privacy
+              Policy.
+              <a style="color: #f74713" class="" href="/privacy"
+                >Data Privacy Policy</a
+              >.
+            </p>
+
+            <div id="max-2" class="text-center">
+              <button
+                id="close"
+                style="font-size: 15px; padding: 10px 7rem"
+                class="btn btn-outline-light fw-semibold rounded-0 web"
+              >
+                Confirm
+              </button>
+              <button
+                id="quit"
+                style="
+                  font-size: 10px;
+                  padding: 10px 7rem;
+                  color: #f74713;
+                  border: 1px solid #f74713;
+                "
+                class="btnb fw-semibold rounded-0 mobile"
+              >
+                Confirm
+              </button>
+
+              <a href="/cookies-policy" class="text-decoration-none text-light"
+                ><p id="web" style="font-size: 8px" class="pt-3">
+                  view cookie policies
+                  <i class="fa-solid fa-angle-right"></i>
+                </p>
+                <p id="mob" style="font-size: 8px; color: #f74713" class="pt-3">
+                  view cookie policies
+                  <i class="fa-solid fa-angle-right"></i></p
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="https://res.cloudinary.com/dzujsxbvf/image/upload/v1708303318/SGI/xxldbblnj6g4n65335zf.png"
+              class="d-block object-fit cover w-100"
+              alt="..."
+            />
+
+            <div
+              id="industries"
+              class="flex-wrap align-items-start mobile text-start"
+            >
+              <div class="row justify-content-between">
+                <div
+                  id="identifiers"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3"
+                >
+                  <div id="spiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+
+                  <div class="text-light">
+                    <h1 class="">Agricultural Exports</h1>
+                    <p class="pt-3 pb-5 fs-5">
+                      <span class="fw-bold fs-4">TransAgro</span> is Dedicated
+                      to reshaping the agricultural landscape and
+                      revolutionizing the Agro Export Industry.
+                    </p>
+                    <a
+                      href="/trance-agro"
+                      class="pb-5 mb-5 text-decoration-none text-light align-items-center d-flex"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div
+                  id="unique"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3 d-none"
+                >
+                  <div id="secspiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+                  <div class="text-light">
+                    <h1 class="">Automotive Aggregator</h1>
+                    <p class="pt-3 pb-3 fs-5">
+                      <span class="fw-bold fs-4">AutoBuy</span> is committed to
+                      prioritizing your safety pre & post purchase process,
+                      <br />providing you with peace of mind when making your
+                      purchase.
+                    </p>
+                    <a href="/autobuy" class="text-decoration-none text-light"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="https://res.cloudinary.com/dzujsxbvf/image/upload/v1708303923/SGI/svs0lfuosd1kfqmsvmeq.png"
+              class="d-block object-fit cover w-100"
+              alt="..."
+            />
+
+            <div
+              id="industries"
+              class="flex-wrap align-items-start mobile text-start"
+            >
+              <div class="row justify-content-between">
+                <div
+                  id="identifiers"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3 d-none"
+                >
+                  <div id="spiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+
+                  <div class="text-light">
+                    <h1 class="">Agricultural Exports</h1>
+                    <p class="pt-3 pb-5 fs-5">
+                      <span class="fw-bold fs-4">TransAgro</span> is Dedicated
+                      to reshaping the agricultural landscape and
+                      revolutionizing the Agro Export Industry.
+                    </p>
+                    <a
+                      href="/trance-agro"
+                      class="pb-5 mb-5 text-decoration-none text-light align-items-center d-flex"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div
+                  id="unique"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3"
+                >
+                  <div id="secspiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+                  <div class="text-light">
+                    <h1 class="">Automotive Aggregator</h1>
+                    <p class="pt-3 pb-3 fs-5">
+                      <span class="fw-bold fs-4">AutoBuy</span> is committed to
+                      prioritizing your safety pre & post purchase process,
+                      <br />providing you with peace of mind when making your
+                      purchase.
+                    </p>
+                    <a href="/autobuy" class="text-decoration-none text-light"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/images/Agro-img.png"
+              class="d-block object-fit cover w-100"
+              alt="..."
+            />
+            <div
+              id="industries"
+              class="flex-wrap align-items-start mobile text-start"
+            >
+              <div class="row justify-content-between">
+                <div
+                  id="identifiers"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3"
+                >
+                  <div id="spiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+
+                  <div class="text-light">
+                    <h1 class="">Agricultural Exports</h1>
+                    <p class="pt-3 pb-5 fs-5">
+                      <span class="fw-bold fs-4">TransAgro</span> is Dedicated
+                      to reshaping the agricultural landscape and
+                      revolutionizing the Agro Export Industry.
+                    </p>
+                    <a
+                      href="/trance-agro"
+                      class="pb-5 mb-5 text-decoration-none text-light align-items-center d-flex"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div
+                  id="unique"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3 d-none"
+                >
+                  <div id="secspiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+                  <div class="text-light">
+                    <h1 class="">Automotive Aggregator</h1>
+                    <p class="pt-3 pb-3 fs-5">
+                      <span class="fw-bold fs-4">AutoBuy</span> is committed to
+                      prioritizing your safety pre & post purchase process,
+                      <br />providing you with peace of mind when making your
+                      purchase.
+                    </p>
+                    <a href="/autobuy" class="text-decoration-none text-light"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/images/bridge.png"
+              class="d-block object-fit cover w-100"
+              alt="..."
+            />
+            <div
+              id="industries"
+              class="flex-wrap align-items-start mobile text-start"
+            >
+              <div class="row justify-content-between">
+                <div
+                  id="identifiers"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3 d-none"
+                >
+                  <div id="spiral" class="spiral">
+                    <img src="images/spiral.png" alt="" class="" />
+                  </div>
+
+                  <div class="text-light">
+                    <h1 class="">Agricultural Exports</h1>
+                    <p class="pt-3 pb-5 fs-5">
+                      <span class="fw-bold fs-4">TransAgro</span> is Dedicated
+                      to reshaping the agricultural landscape and
+                      revolutionizing the Agro Export Industry.
+                    </p>
+                    <a
+                      href="/trance-agro"
+                      class="pb-5 mb-5 text-decoration-none text-light align-items-center d-flex"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div
+                  id="unique"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3"
+                >
+                  <div id="secspiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+                  <div class="text-light">
+                    <h1 class="">Automotive Aggregator</h1>
+                    <p class="pt-3 pb-3 fs-5">
+                      <span class="fw-bold fs-4">AutoBuy</span> is committed to
+                      prioritizing your safety pre & post purchase process,
+                      <br />providing you with peace of mind when making your
+                      purchase.
+                    </p>
+                    <a href="/autobuy" class="text-decoration-none text-light"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/images/corporate.png"
+              class="d-block object-fit cover w-100"
+              alt="..."
+            />
+            <div
+              id="industries"
+              class="flex-wrap align-items-start mobile text-start"
+            >
+              <div class="row justify-content-between">
+                <div
+                  id="identifiers"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3"
+                >
+                  <div id="spiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+
+                  <div class="text-light">
+                    <h1 class="">Agricultural Exports</h1>
+                    <p class="pt-3 pb-5 fs-5">
+                      <span class="fw-bold fs-4">TransAgro</span> is Dedicated
+                      to reshaping the agricultural landscape and
+                      revolutionizing the Agro Export Industry.
+                    </p>
+                    <a
+                      href="/trance-agro"
+                      class="pb-5 mb-5 text-decoration-none text-light align-items-center d-flex"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div
+                  id="unique"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3 d-none"
+                >
+                  <div id="secspiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+                  <div class="text-light">
+                    <h1 class="">Automotive Aggregator</h1>
+                    <p class="pt-3 pb-3 fs-5">
+                      <span class="fw-bold fs-4">AutoBuy</span> is committed to
+                      prioritizing your safety pre & post purchase process,
+                      <br />providing you with peace of mind when making your
+                      purchase.
+                    </p>
+                    <a href="/autobuy" class="text-decoration-none text-light"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="/images/cables.png"
+              class="d-block object-fit cover w-100"
+              alt="..."
+            />
+            <div
+              id="industries"
+              class="flex-wrap align-items-start mobile text-start"
+            >
+              <div class="row justify-content-between">
+                <div
+                  id="identifiers"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3 d-none"
+                >
+                  <div id="spiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+
+                  <div class="text-light">
+                    <h1 class="">Agricultural Exports</h1>
+                    <p class="pt-3 pb-5 fs-5">
+                      <span class="fw-bold fs-4">TransAgro</span> is Dedicated
+                      to reshaping the agricultural landscape and
+                      revolutionizing the Agro Export Industry.
+                    </p>
+                    <a
+                      href="/trance-agro"
+                      class="pb-5 mb-5 text-decoration-none text-light align-items-center d-flex"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div
+                  id="unique"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3"
+                >
+                  <div id="secspiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+                  <div class="text-light">
+                    <h1 class="">Automotive Aggregator</h1>
+                    <p class="pt-3 pb-3 fs-5">
+                      <span class="fw-bold fs-4">AutoBuy</span> is committed to
+                      prioritizing your safety pre & post purchase process,
+                      <br />providing you with peace of mind when making your
+                      purchase.
+                    </p>
+                    <a href="/autobuy" class="text-decoration-none text-light"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="images/port.png"
+              class="d-block object-fit cover w-100"
+              alt="..."
+            />
+            <div
+              id="industries"
+              class="flex-wrap align-items-start mobile text-start"
+            >
+              <div class="row justify-content-between">
+                <div
+                  id="identifiers"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3"
+                >
+                  <div id="spiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+
+                  <div class="text-light">
+                    <h1 class="">Agricultural Exports</h1>
+                    <p class="pt-3 pb-5 fs-5">
+                      <span class="fw-bold fs-4">TransAgro</span> is Dedicated
+                      to reshaping the agricultural landscape and
+                      revolutionizing the Agro Export Industry.
+                    </p>
+                    <a
+                      href="/trance-agro"
+                      class="pb-5 mb-5 text-decoration-none text-light align-items-center d-flex"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div
+                  id="unique"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3 d-none"
+                >
+                  <div id="secspiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+                  <div class="text-light">
+                    <h1 class="">Automotive Aggregator</h1>
+                    <p class="pt-3 pb-3 fs-5">
+                      <span class="fw-bold fs-4">AutoBuy</span> is committed to
+                      prioritizing your safety pre & post purchase process,
+                      <br />providing you with peace of mind when making your
+                      purchase.
+                    </p>
+                    <a href="/autobuy" class="text-decoration-none text-light"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="images/export.png"
+              class="d-block object-fit cover w-100"
+              alt="..."
+            />
+
+            <div
+              id="industries"
+              class="flex-wrap align-items-start mobile text-start"
+            >
+              <div class="row justify-content-between">
+                <div
+                  id="identifiers"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3 d-none"
+                >
+                  <div id="spiral" class="spiral">
+                    <img src="images/spiral.png" alt="" class="" />
+                  </div>
+
+                  <div class="text-light">
+                    <h1 class="">Agricultural Exports</h1>
+                    <p class="pt-3 pb-5 fs-5">
+                      <span class="fw-bold fs-4">TransAgro</span> is Dedicated
+                      to reshaping the agricultural landscape and
+                      revolutionizing the Agro Export Industry.
+                    </p>
+                    <a
+                      href="/trance-agro"
+                      class="pb-5 mb-5 text-decoration-none text-light align-items-center d-flex"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+
+                <div
+                  id="unique"
+                  style="width: 400px"
+                  class="col-md-4 d-flex align-items-start gap-3"
+                >
+                  <div id="secspiral" class="spiral">
+                    <img src="/images/spiral.png" alt="" class="" />
+                  </div>
+                  <div class="text-light">
+                    <h1 class="">Automotive Aggregator</h1>
+                    <p class="pt-3 pb-3 fs-5">
+                      <span class="fw-bold fs-4">AutoBuy</span> is committed to
+                      prioritizing your safety pre & post purchase process,
+                      <br />providing you with peace of mind when making your
+                      purchase.
+                    </p>
+                    <a href="/autobuy" class="text-decoration-none text-light"
+                      >Read More <i class="ms-3 fa-solid fa-right-long"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      </div>
+    </header>
+
+    <section class="bg-light text-dark pb-5">
+      <div class="sub">
+        <div class="wth-50 pb-5">
+          <h1 class="fw-bold">Our Purpose</h1>
+          <p class="pt-2 lineh2">
+            Our purpose extends beyond our own growth; our relentless pursuit to
+            challenge and overcome technological barriers in Africa and globally
+            led to the birth of SGI. It is an envisioned platform to cultivate
+            innovative ideas and imaginations, reaching beyond industry
+            boundaries and geographical limits
+          </p>
+        </div>
+
+        <div class="flex-wrap">
+          <div class="row gap-3 pt-5">
+            <div class="col-md board">
+              <input type="checkbox" id="ch" />
+
+              <img
+                style="width: 30px; aspect-ratio: 1"
+                src="/images/technology-icon.svg"
+                alt=""
+                class=""
+              />
+              <h3 class="fw-bold mt-3 lines">TECHNOLOGY</h3>
+              <p class="pt-2 lineh">
+                Technology is our core essence as a company and a key driver of
+                growth across various industries.
+              </p>
+
+              <div class="card-content">
+                <p>
+                  We are here to revolutionise the way businesses operate,
+                  leading to increased efficiency, productivity, and access.
+                </p>
+                <label for="ch"
+                  >Close
+                  <i
+                    style="color: #f74713"
+                    class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                  >
+                  </i>
+                </label>
+              </div>
+
+              <label for="ch"
+                >More
+                <i
+                  style="color: #f74713"
+                  class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                >
+                </i>
+              </label>
+            </div>
+
+            <div class="col-md board">
+              <input type="checkbox" id="cha" />
+              <img
+                style="width: 30px; aspect-ratio: 1"
+                src="/images/inovate.svg"
+                alt=""
+                class=""
+              />
+              <h3 class="fw-bold mt-3 lines">INNOVATION</h3>
+              <p class="pt-2 lineh">
+                Innovation is a fundamental cornerstone that SGI relies on for
+                its continual progress, whether today or in decades to come.
+              </p>
+              <div class="card-content">
+                <p>
+                  In embracing complexities, we encourage businesses to uncover
+                  unique opportunities. We are committed to understanding the
+                  intricate dynamics of all industries in our focus.
+                </p>
+                <label for="cha"
+                  >Close
+                  <i
+                    style="color: #f74713"
+                    class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                  >
+                  </i>
+                </label>
+              </div>
+
+              <label for="cha"
+                >More
+                <i
+                  style="color: #f74713"
+                  class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                >
+                </i>
+              </label>
+            </div>
+
+            <div class="col-md board">
+              <input type="checkbox" id="chb" />
+              <img
+                style="width: 32px; aspect-ratio: 1"
+                src="/images/chart-purpose.svg"
+                alt=""
+                class=""
+              />
+              <h3 class="fw-bold mt-3 lines">GROWTH</h3>
+              <p class="pt-2 lineh">
+                Our growth strategy is underpinned by our commitment to
+                innovation, operational excellence and customer satisfaction.
+              </p>
+              <div class="card-content">
+                <p>
+                  We believe that by focusing on these areas, we can expand our
+                  market share, diversify our revenue streams, and enhance our
+                  profitability. Our growth projection is not just about
+                  increasing our bottom line but also about creating a positive
+                  impact on the communities we serve.
+                </p>
+                <label for="chb"
+                  >Close
+                  <i
+                    style="color: #f74713"
+                    class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                  >
+                  </i>
+                </label>
+              </div>
+
+              <label for="chb"
+                >More
+                <i
+                  style="color: #f74713"
+                  class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                >
+                </i>
+              </label>
+            </div>
+          </div>
+
+          <div class="row gap-3 pt-5">
+            <div class="col-md board">
+              <input type="checkbox" id="chc" />
+              <img
+                style="width: 30px; aspect-ratio: 1"
+                src="/images/network-svg.svg"
+                alt=""
+                class=""
+              />
+              <h3 class="fw-bold mt-3 lines">TRADE</h3>
+              <p class="pt-2 lineh">
+                We are committed to bringing inclusivity to commerce. We believe
+                in the power of trade to drive economic growth and cross-class
+                alliances, create jobs and build stronger communities.
+              </p>
+              <div class="card-content">
+                <p>
+                  Our goal is to enable businesses of all sizes to connect,
+                  compete, and thrive in the global marketplace. We are
+                  committed to bringing an inclusive culture to commerce
+                </p>
+                <label for="chc"
+                  >Close
+                  <i
+                    style="color: #f74713"
+                    class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                  >
+                  </i>
+                </label>
+              </div>
+
+              <label for="chc"
+                >More
+                <i
+                  style="color: #f74713"
+                  class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                >
+                </i>
+              </label>
+            </div>
+
+            <div class="col-md board">
+              <input type="checkbox" id="chd" />
+              <img
+                style="width: 30px; aspect-ratio: 1"
+                src="/images/sust.svg"
+                alt=""
+                class=""
+              />
+              <h3 class="fw-bold mt-3 lines">SUSTAINABILITY</h3>
+              <p class="pt-2 lineh">
+                The future matters to us at SGI. Sustainability is a key factor
+                in securing the future of our environment and the company. It
+                involves implementing strategies that
+              </p>
+              <div class="card-content">
+                <p>
+                  fulfil the company’s current needs without compromising the
+                  ability of future generations to meet their full potential.
+                </p>
+                <label for="chd"
+                  >Close
+                  <i
+                    style="color: #f74713"
+                    class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                  >
+                  </i>
+                </label>
+              </div>
+
+              <label for="chd"
+                >More
+                <i
+                  style="color: #f74713"
+                  class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                >
+                </i>
+              </label>
+            </div>
+
+            <div class="col-md board">
+              <input type="checkbox" id="che" />
+              <img
+                style="width: 30px; aspect-ratio: 1"
+                src="/images/desktop-svg.svg"
+                alt=""
+                class=""
+              />
+              <h3 class="fw-bold mt-3 lines">NAVIGATE COMPLEXITIES</h3>
+              <p class="pt-2 lineh">
+                We are aware of the instability in many business environments,
+                thanks to our well-honed vision. We can, however, navigate these
+                complexities with resilience, agility, data and foresight.
+              </p>
+              <div class="card-content">
+                <p>
+                  We are committed to understanding the intricate dynamics of
+                  any industry we focus our attention on, anticipating the
+                  market trends there, and making informed decisions that drive
+                  growth. By embracing complexity, we are encouraged to uncover
+                  unique opportunities, foster innovation and create value for
+                  our stakeholders. 'Navigating Complexities' is not just our
+                  purpose; it's our strategic advantage in the face of
+                  uncertainty. This is how we chart a course towards a
+                  prosperous future for our stakeholders, partners and
+                  subsidiaries.
+                </p>
+                <label for="che"
+                  >Close
+                  <i
+                    style="color: #f74713"
+                    class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                  >
+                  </i>
+                </label>
+              </div>
+
+              <label for="che"
+                >More
+                <i
+                  style="color: #f74713"
+                  class="fa-solid fa-arrow-right-long fa-beat ms-2"
+                >
+                </i>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light text-dark">
+      <div id="web" class="sub flex-wrap">
+        <div class="row align-items-center mb-5">
+          <div class="col-md-5">
+            <h2 class="fw-bold">Our Subsidiaries</h2>
+            <p class="">
+              In our universe, we aren't just passively observing the future;
+              we're actively shaping it. We're the architects of innovation, the
+              makers of moments, and the explorers of uncharted territories.
+              Together, we stand at the intersection of today's challenges and
+              tomorrow's possibilities, ready to co-create a world that's
+              nothing short of extraordinary. Welcome to the future – Welcome to
+              a journey with us - Welcome to SGI
+            </p>
+          </div>
+
+          <div class="col-md text-end">
+            <img
+              style="object-fit: cover; margin-left: 8rem"
+              src="/images/earth360.gif"
+              alt=""
+              class="object-fit-cover w-100"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div id="mob" class="sub flex-wrap">
+        <div class="row align-items-center">
+          <div class="col-md text-center mb-5 pb-5">
+            <img
+              style="object-fit: cover"
+              src="/images/earth360-2.gif"
+              alt=""
+              class="object-fit-cover w-100 mt-5"
+            />
+          </div>
+
+          <div class="col-md-5 mb-5 pb-5">
+            <h2 class="fw-bold">Our Subsidiaries</h2>
+            <p class="">
+              In our universe, we aren't just passively observing the future;
+              we're actively shaping it. We're the architects of innovation, the
+              makers of moments, and the explorers of uncharted territories.
+              Together, we stand at the intersection of today's challenges and
+              tomorrow's possibilities, ready to co-create a world that's
+              nothing short of extraordinary. Welcome to the future – Welcome to
+              a journey with us - Welcome to SGI
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      style="background-color: #111c24"
+      id="intent"
+      class="sub d-flex align-items-center"
+    >
+      <div
+        style="background-color: #111c24"
+        class="content flex-wrap py-5 px-md-5"
+      >
+        <div id="web" class="row">
+          <div class="col text-center">
+            <img
+              style="width: 80px !important"
+              src="/images/silvine-svg.svg"
+              alt=""
+              class="object-fit-cover"
+            />
+          </div>
+          <div class="col text-center">
+            <img
+              style="width: 80px !important"
+              src="/images/trance-agro-svg.svg"
+              alt=""
+              class="object-fit-cover"
+            />
+          </div>
+
+          <div class="col text-center">
+            <img
+              src="/images/brainiac-svg.svg"
+              alt=""
+              class="object-fit-cover"
+            />
+          </div>
+
+          <div class="col text-center">
+            <img
+              style="width: 80px !important"
+              src="/images/autobuy-v2.svg"
+              alt=""
+              class="object-fit-cover"
+            />
+          </div>
+
+          <div class="col text-center">
+            <img
+              style="width: 70px !important"
+              src="/images/Advox-svg.svg"
+              alt=""
+              class="object-fit-cover"
+            />
+          </div>
+        </div>
+        <marquee id="mob">
+          <div id="mob" class="d-flex align-items-center gap-5 mobile">
+            <div class="col text-center">
+              <img
+                style="width: 80px !important"
+                src="/images/silvine-svg.svg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+
+            <div class="col text-center">
+              <img
+                style="width: 80px !important"
+                src="/images/trance-agro-svg.svg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+
+            <div class="col text-center">
+              <img
+                src="images/brainiac-svg.svg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+
+            <div class="col text-center">
+              <img
+                style="width: 80px !important"
+                src="/images/autobuy-v2.svg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+
+            <div class="col text-center">
+              <img
+                style="width: 70px !important"
+                src="/images/Advox-svg.svg"
+                alt=""
+                class="object-fit-cover"
+              />
+            </div>
+          </div>
+        </marquee>
+      </div>
+
+      <div class="dspl-2 align-items-md-end">
+        <div id="web" class="dsp-item align-items-center">
+          <div id="subsidiaries" class="p-4">
+            <div class="main-box swiper mySwiper">
+              <!-- <div id="order" class="d-flex">
+                <button id="prev" class="ms-auto me-3 btn text-light">
+                  <i class="fa-solid fa-angle-left"></i>
+                </button>
+
+                <button id="next" class="btn text-light">
+                  <i class="fa-solid fa-angle-right"></i>
+                </button>
+              </div> -->
+
+              <div class="motion swiper-wrapper">
+                <div id="sgi-sub1" class="text-start p-md-4 swiper-slide">
+                  <img
+                    style="width: 25px"
+                    src="/images/mesh-svg.svg"
+                    alt=""
+                    class="py-3"
+                  />
+
+                  <h2 class="text-light pb-5">
+                    Automotive <br />
+                    Aggregator
+                  </h2>
+                  <p class="text-light pb-5">
+                    Autobuy is committed to prioritizing your safety throughout
+                    the car buying process. We meticulously vet and verify all
+                    sellers on our platform, providing you with peace of mind
+                    when making your purchase. Rest assured, you are dealing
+                    with reputable sellers who are dedicated to delivering
+                    exceptional service.
+                  </p>
+
+                  <img
+                    style="width: 150px"
+                    src="/images/autobuy-v2.svg"
+                    alt=""
+                    class="py-5"
+                  />
+
+                  <div class="d-flex justify-content-between">
+                    <div class="">
+                      <p class="text-light pb-2">Founded</p>
+                      <h1 class="text-light fw-bold">2018</h1>
+                    </div>
+                    <div class="">
+                      <p class="text-light pb-2">Location</p>
+                      <h1 class="text-light fw-light">Nigeria</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="sgi-sub2" class="text-start p-md-4 swiper-slide">
+                  <img
+                    style="width: 25px"
+                    src="images/mesh-svg.svg"
+                    alt=""
+                    class="py-3"
+                  />
+
+                  <h2 class="text-light pb-5">
+                    Advertisements <br />and Publishing
+                  </h2>
+                  <p class="text-light pb-5">
+                    Advox helps its clients to create compelling and captivating
+                    media content that showcases their brands, products or
+                    services in a professional and appealing way. Advox offers
+                    media production services such as TV and radio commercial
+                    production, video editing, product photography, animation,
+                    voice over and more. Advox also has a state-of-the-art
+                    studio that is equipped with the latest technology and
+                    equipment to ensure the best quality output for the
+                    clients' media projects.
+                  </p>
+
+                  <img
+                    style="width: 112px"
+                    src="images/Advox-svg.svg"
+                    alt=""
+                    class="py-5"
+                  />
+
+                  <div class="d-flex justify-content-between">
+                    <div class="">
+                      <p class="text-light pb-2">Founded</p>
+                      <h1 class="text-light fw-bold">2021</h1>
+                    </div>
+                    <div class="">
+                      <p class="text-light pb-2">Location</p>
+                      <h1 class="text-light fw-light">Nigeria</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="sgi-sub3" class="text-start p-md-4 swiper-slide">
+                  <img
+                    style="width: 25px"
+                    src="images/mesh-svg.svg"
+                    alt=""
+                    class="py-3"
+                  />
+
+                  <h2 class="text-light pb-5">
+                    Fintech Solutions <br />
+                    & Financial <br />
+                    Services
+                  </h2>
+                  <p style="font-size: 12px" class="text-light pb-5">
+                    Silvine Investment is your trusted financial stewards,
+                    committed to helping you make the most of all your
+                    resources. Our mission is clear, to provide comprehensive
+                    investment services that enable you to achieve your goals.
+                    To give you the finest prospects, we keep ahead of the curve
+                    and adjust to the shifting dynamics of the market on a
+                    regular basis. We build relationships on trust. Our
+                    commitment to transparency means you'll always know what's
+                    happening with your investments. At Silvine Investment we
+                    use your success to measure our own
+                  </p>
+
+                  <img
+                    style="width: 112px"
+                    src="images/silvine-svg.svg"
+                    alt=""
+                    class="py-5"
+                  />
+
+                  <div class="d-flex justify-content-between">
+                    <div class="">
+                      <p class="text-light pb-2">Founded</p>
+                      <h1 class="text-light fw-bold">2020</h1>
+                    </div>
+                    <div class="">
+                      <p class="text-light pb-2">Location</p>
+                      <h1 class="text-light fw-light">Nigeria</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="sgi-sub4" class="text-start p-md-4 swiper-slide">
+                  <img
+                    style="width: 25px"
+                    src="images/mesh-svg.svg"
+                    alt=""
+                    class="py-3"
+                  />
+
+                  <h2 class="text-light pb-5">Technology</h2>
+                  <p class="text-light pb-5">
+                    We are the architects of tomorrow's solutions. Our team of
+                    experts comprisesvisionaries, engineers, and trailblazers
+                    who are passionate about driving positivechange through
+                    innovation. Our tech-savvy enthusiasts understand the
+                    dynamicnature of the digital world, and we're here to help
+                    you harness the full potentialof technology
+                  </p>
+
+                  <img
+                    style="width: 112px"
+                    src="images/brainiac-svg.svg"
+                    alt=""
+                    class="py-5"
+                  />
+
+                  <div class="d-flex justify-content-between">
+                    <div class="">
+                      <p class="text-light pb-2">Founded</p>
+                      <h1 class="text-light fw-bold">2021</h1>
+                    </div>
+                    <div class="">
+                      <p class="text-light pb-2">Location</p>
+                      <h1 class="text-light fw-light">Nigeria</h1>
+                    </div>
+                  </div>
+                </div>
+
+                <div id="sgi-sub5" class="text-start p-md-4 swiper-slide">
+                  <img
+                    style="width: 25px"
+                    src="images/mesh-svg.svg"
+                    alt=""
+                    class="py-3"
+                  />
+
+                  <h2 class="text-light pb-5">
+                    Agricultural <br />
+                    Product Export
+                  </h2>
+
+                  <p class="text-light pb-5">
+                    We are committed to providing you with outstanding resources
+                    and expertise that will truly transform your Agro export
+                    business globally. You will enjoy access to a wealth of
+                    knowledge encompassing from equipment leasing, Business
+                    start-up, Food export, Balance of trade, Interest rates,
+                    Economic growth, Mergers and acquisitions, and much more.
+                    <br />
+                  </p>
+
+                  <img
+                    style="width: 112px"
+                    src="images/trance-agro-svg.svg"
+                    alt=""
+                    class="py-5"
+                  />
+
+                  <div class="d-flex justify-content-between">
+                    <div class="">
+                      <p class="text-light pb-2">Founded</p>
+                      <h1 class="text-light fw-bold">2020</h1>
+                    </div>
+                    <div class="">
+                      <p class="text-light pb-2">Location</p>
+                      <h1 class="text-light fw-light">Nigeria</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="width: 90%" id="mob" class="mx-auto pt-5">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-interval="100"
+          >
+            <div class="carousel-inner pb-5 mb-5">
+              <div class="carousel-item active">
+                <div id="sgi-sub2" class="text-start p-md-5">
+                  <img
+                    style="width: 25px"
+                    src="images/mesh-svg.svg"
+                    alt=""
+                    class="py-3"
+                  />
+
+                  <h2 class="text-light pb-5">
+                    Advertisements <br />and Publishing
+                  </h2>
+                  <p style="font-size: 12px" class="text-light pb-5">
+                    Advox helps its clients to create compelling and captivating
+                    media content that showcases their brands, products or
+                    services in a professional and appealing way. Advox offers
+                    media production services such as TV and radio commercial
+                    production, video editing, product photography, animation,
+                    voice over and more. Advox also has a state-of-the-art
+                    studio that is equipped with the latest technology and
+                    equipment to ensure the best quality output for the
+                    clients' media projects.
+                  </p>
+
+                  <img
+                    style="width: 112px"
+                    src="images/Advox-svg.svg"
+                    alt=""
+                    class="py-5"
+                  />
+
+                  <div class="d-flex justify-content-between">
+                    <div class="">
+                      <p class="text-light pb-2">Founded</p>
+                      <h1 class="text-light fw-bold">2021</h1>
+                    </div>
+                    <div class="">
+                      <p class="text-light pb-2">Location</p>
+                      <h1 class="text-light fw-light">Nigeria</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div id="sgi-sub3" class="text-start p-md-5">
+                  <img
+                    style="width: 25px"
+                    src="images/mesh-svg.svg"
+                    alt=""
+                    class="py-3"
+                  />
+
+                  <h2 class="text-light pb-5">
+                    Fintech Solutions <br />
+                    & Financial <br />
+                    Services
+                  </h2>
+                  <p style="font-size: 12px" class="text-light pb-5">
+                    Silvine Investment is your trusted financial stewards,
+                    committed to helping you make the most of all your
+                    resources. Our mission is clear, to provide comprehensive
+                    investment services that enable you to achieve your goals.
+                    To give you the finest prospects, we keep ahead of the curve
+                    and adjust to the shifting dynamics of the market on a
+                    regular basis. We build relationships on trust. Our
+                    commitment to transparency means you'll always know what's
+                    happening with your investments. At Silvine Investment we
+                    use your success to measure our own
+                  </p>
+
+                  <img
+                    style="width: 112px"
+                    src="images/silvine-svg.svg"
+                    alt=""
+                    class="py-5"
+                  />
+
+                  <div class="d-flex justify-content-between">
+                    <div class="">
+                      <p class="text-light pb-2">Founded</p>
+                      <h1 class="text-light fw-bold">2020</h1>
+                    </div>
+                    <div class="">
+                      <p class="text-light pb-2">Location</p>
+                      <h1 class="text-light fw-light">Nigeria</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div id="sgi-sub4" class="text-start p-md-5">
+                  <img
+                    style="width: 25px"
+                    src="images/mesh-svg.svg"
+                    alt=""
+                    class="py-3"
+                  />
+
+                  <h2 class="text-light pb-5">Technology</h2>
+                  <p class="text-light pb-5">
+                    We are the architects of tomorrow's solutions. Our team of
+                    experts comprisesvisionaries, engineers, and trailblazers
+                    who are passionate about driving positivechange through
+                    innovation. Our tech-savvy enthusiasts understand the
+                    dynamicnature of the digital world, and we're here to help
+                    you harness the full potentialof technology
+                  </p>
+
+                  <img
+                    style="width: 112px"
+                    src="images/brainiac-svg.svg"
+                    alt=""
+                    class="py-5"
+                  />
+
+                  <div class="d-flex justify-content-between">
+                    <div class="">
+                      <p class="text-light pb-2">Founded</p>
+                      <h1 class="text-light fw-bold">2021</h1>
+                    </div>
+                    <div class="">
+                      <p class="text-light pb-2">Location</p>
+                      <h1 class="text-light fw-light">Nigeria</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div id="sgi-sub1" class="text-start p-md-5">
+                  <img
+                    style="width: 25px"
+                    src="images/mesh-svg.svg"
+                    alt=""
+                    class="py-3"
+                  />
+
+                  <h2 class="text-light pb-5">
+                    Automotive <br />
+                    Aggregator
+                  </h2>
+                  <p class="text-light pb-5">
+                    Autobuy is committed to prioritizing your safety throughout
+                    the car buying process. We meticulously vet and verify all
+                    sellers on our platform, providing you with peace of mind
+                    when making your purchase. Rest assured, you are dealing
+                    with reputable sellers who are dedicated to delivering
+                    exceptional service.
+                  </p>
+
+                  <img
+                    style="width: 112px"
+                    src="images/autobuy-svg.svg"
+                    alt=""
+                    class="py-5"
+                  />
+
+                  <div class="d-flex justify-content-between">
+                    <div class="">
+                      <p class="text-light pb-2">Founded</p>
+                      <h1 class="text-light fw-bold">2018</h1>
+                    </div>
+                    <div class="">
+                      <p class="text-light pb-2">Location</p>
+                      <h1 class="text-light fw-light">Nigeria</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item">
+                <div id="sgi-sub5" class="text-start p-md-5">
+                  <img
+                    style="width: 25px"
+                    src="images/mesh-svg.svg"
+                    alt=""
+                    class="py-3"
+                  />
+
+                  <h2 class="text-light pb-5">
+                    Agricultural <br />
+                    Product Export
+                  </h2>
+
+                  <p class="text-light pb-5">
+                    We are committed to providing you with outstanding resources
+                    and expertise that will transform your Agro export business
+                    globally. You enjoy access to a wealth of knowledge
+                    encompassing from equipment leasing, Business start-up, Food
+                    export, Balance of trade, Interest rates, Economic growth,
+                    Mergers and acquisitions.
+                  </p>
+
+                  <img
+                    style="width: 112px"
+                    src="images/trance-agro-svg.svg"
+                    alt=""
+                    class="py-5"
+                  />
+
+                  <div class="d-flex justify-content-between">
+                    <div class="">
+                      <p class="text-light pb-2">Founded</p>
+                      <h1 class="text-light fw-bold">2020</h1>
+                    </div>
+                    <div class="">
+                      <p class="text-light pb-2">Location</p>
+                      <h1 class="text-light fw-light">Nigeria</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dsp-item text-center">
+          <img src="images/Sgi gif.gif" alt="" class="web mx-auto" />
+
+          <img
+            style="transform: rotate(20deg); margin-bottom: 10rem"
+            src="images/Sgi gif.gif"
+            alt=""
+            class="mobile mx-auto ps-5"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-light text-dark">
+      <div class="sub2">
+        <h1 class="fw-bold pb-4">Our People, Our Strength</h1>
+        <p class="pb-5">
+          We champion creativity and are dedicated to transforming ideas into
+          reality. <br />
+          Our commitment lies in not just conceptualising, but also in
+          effectively implementing <br />
+          and executing solutions that endure for decades, ensuring long-term
+          sustainability.
+        </p>
+
+        <div class="pt-md-5 mt-md-5 dspl-2 align-items-start">
+          <div class="d-item3">
+            <img src="images/diversity.svg" alt="" class="pb-4" />
+            <h4 class="fw-bold pb-3">DIVERSITY & INCLUSION</h4>
+            <p class="">
+              Irrespective of your race, culture, or language, our inclusive
+              community welcomes everyone with open arms. We celebrate diversity
+              as a strength, providing a space where individuals from all
+              backgrounds can thrive, contribute, and flourish.
+            </p>
+          </div>
+
+          <div class="d-item3">
+            <img src="images/capacity-icon.svg" alt="" class="pb-4" />
+            <h4 class="fw-bold pb-3">CAPACITY BUILDING</h4>
+            <p class="">
+              Your career advancement holds a prominent place in our priorities,
+              and the commitment to productivity is a vital component for every
+              team member. We are dedicated to fostering not only your
+              professional growth but also creating an environment where you can
+              thrive. We believe in your potential to excel, and we are here to
+              support you in every step of your journey.
+            </p>
+          </div>
+
+          <div class="d-item3">
+            <img src="images/robust-icon.svg" alt="" class="pb-4" />
+            <h4 class="fw-bold pb-3">ROBUST BENEFITS</h4>
+            <p class="">
+              At SGI, our benefits package is designed to support your overall
+              well-being, enhance your work experience, and help you thrive both
+              personally and professionally. We are committed to investing in
+              our employees and providing them with the resources they need to
+              succeed. Join us and experience the robust benefit that we offer.
+            </p>
+          </div>
+
+          <div class="d-item3 mt-4">
+            <img src="images/community-icon.svg" alt="" class="pb-4" />
+            <h4 class="fw-bold pb-3">COMMUNITY SUPPORT</h4>
+            <p class="">
+              We've made it our mission to actively contribute to the well-being
+              and growth of the community that has nurtured us. From supporting
+              local initiatives and educational programs to championing
+              environmental sustainability, we view every community project as
+              an opportunity to make a lasting impact.
+            </p>
+          </div>
+
+          <div class="d-item3 mt-4">
+            <img src="images/modern-icon.svg" alt="" class="pb-4" />
+            <h4 class="fw-bold pb-3">MODERN WORKSPACE</h4>
+            <p class="">
+              We keep ourselves at the forefront by staying updated on the
+              newest tech trends and resources. At SGI, we're not merely riding
+              the wave; we're shaping it. Our team is always geared up for the
+              thrilling tech journey that lies ahead, propelling innovation and
+              excellence in every stride.
+            </p>
+          </div>
+
+          <div class="d-item3 mt-4 text-light">
+            <img src="images/robust-icon.svg" alt="" class="pb-4 d-none" />
+            <h4 class="fw-bold pb-3">ROBUST BENEFITS</h4>
+            <p class="">
+              We have a carefully designed welfare & benefits system to enrich
+              the lives of our people.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="">
+      <section>
+        <div class="bg-light text-md-center sub">
+          <img src="images/black-logo.svg" alt="" class="pb-5 mb-5" />
+
+          <div id="ft-links" class="">
+            <a href="#" class="text-dark">Subsidiaries</a>
+
+            <a
+              href="https://autobuyng.com"
+              class="text-decoration-none text-dark sub-link"
+              >Autobuy <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            <a
+              href="https://brainiactech.co/"
+              class="text-decoration-none text-dark sub-link"
+              >Brainiac <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            <a href="#" class="text-decoration-none text-dark sub-link"
+              >Trance-Agro <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            <a
+              href="https://silvineinvestment.com/"
+              class="text-decoration-none text-dark sub-link"
+              >Silvine <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            <a
+              href="https://advoxconsulting.com"
+              class="text-decoration-none text-dark sub-link"
+              >Advox <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+
+          <div
+            id="web"
+            class="d-flex justify-content-between w-100 mt-5 pt-5 pb-2"
+          >
+            <span class=""
+              ><a
+                href="https://brainiactech.co/"
+                class="text-decoration-none text-dark fw-bold"
+                ><i class="fa-regular fa-copyright"></i> Brainiac </a
+              ><span class="text-secondary"> 2024 Steveraton </span></span
+            >
+
+            <a href="#" class="text-decoration-none text-dark"
+              >1A Hughes Avenue, Alagomeji, Yaba, Lagos, NG.</a
+            >
+
+            <a
+              href="mailto:info@sgincorp.com"
+              class="text-decoration-none fw-bold"
+              >Info@sgincorp.com</a
+            >
+
+            <div class="">
+              <div class="socials ms-auto align-items-center">
+                <!-- <i onclick="location.href='https://twitter.com/steveratongroup'"
+                  style="font-size: 24px; color: #111c24;"
+                  class="fa-brands fa-square-x-twitter"
+                ></i> -->
+
+                <!-- <img style="width: 21px;" onclick="location.href='https://twitter.com/steveratongroup'" src="images/twitter.svg" alt="" class="my-0 py-0"> -->
+
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  onclick="location.href='https://twitter.com/steveratongroup'"
+                  style="width: 24px; padding-bottom: 1.3rem"
+                  class="me-3"
+                  viewBox="0 0 512 512"
+                >
+                  <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                  <path
+                    d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                  />
+                </svg>
+
+                <i
+                  onclick="location.href='http://linkedin.com/company/sgincorp'"
+                  style="font-size: 24px"
+                  class="fa-brands fa-linkedin mx-3"
+                ></i>
+
+                <i
+                  onclick="location.href='https://www.instagram.com/sgincorp/'"
+                  style="font-size: 24px"
+                  class="fa-brands fa-instagram fw-bold mx-3"
+                ></i>
+
+                <i
+                  onclick="location.href='https://www.facebook.com/steveratongroupinc'"
+                  style="font-size: 24px"
+                  class="fa-brands fa-square-facebook mx-3"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <div id="mobile" class="mobile">
+            <div class="socials text-end mb-4">
+              <!-- <i onclick="location.href='https://twitter.com/steveratongroup'"  style="font-size: 24px" class="fa-brands fa-square-twitter mx-3"></i> -->
+
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                onclick="location.href='https://twitter.com/steveratongroup'"
+                style="width: 24px; padding-bottom: 1.3rem"
+                class="me-3"
+                viewBox="0 0 512 512"
+              >
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path
+                  d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                />
+              </svg>
+
+              <i
+                onclick="location.href='http://linkedin.com/company/sgincorp'"
+                style="font-size: 24px"
+                class="fa-brands fa-linkedin mx-3"
+              ></i>
+
+              <i
+                onclick="location.href='https://www.instagram.com/sgincorp/'"
+                style="font-size: 24px"
+                class="fa-brands fa-instagram mx-3"
+              ></i>
+
+              <i
+                onclick="location.href='https://www.facebook.com/steveratongroupinc'"
+                style="font-size: 24px"
+                class="fa-brands fa-square-facebook mx-3"
+              ></i>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-end">
+              <div class="text-start d-flex flex-column">
+                <a
+                  href="/terms"
+                  class="fs-4 mb-4 text-secondary text-decoration-none"
+                >
+                  Terms of use
+                </a>
+                <a
+                  href="/privacy"
+                  class="fs-4 mb-4 text-secondary text-decoration-none"
+                >
+                  Privacy policy
+                </a>
+                <a
+                  href="/cookies-policy"
+                  class="fs-4 mb-4 text-secondary text-decoration-none"
+                >
+                  Cookies policy
+                </a>
+                <a
+                  href="/refund"
+                  class="fs-4 mb-4 text-secondary text-decoration-none"
+                >
+                  Refund policy
+                </a>
+              </div>
+              <div class="text-end">
+                <a
+                  href="mailto:info@sgincorp.com"
+                  class="text-decoration-none fs-3"
+                  >info@sgincorp.com</a
+                >
+
+                <p class="pt-5">
+                  1A Hughes Avenue, <br />
+                  Alagomeji, Yaba, <br />
+                  Lagos, NG.
+                </p>
+              </div>
+            </div>
+
+            <div class="text-center my-5">
+              <span class="">
+                <a
+                  href="https://brainiactech.co/"
+                  class="text-decoration-none text-dark fw-bold"
+                  ><i class="fa-regular fa-copyright"></i> Brainiac
+                </a>
+                <span class="text-secondary"> 2024 Steveraton </span>
+              </span>
+            </div>
+          </div>
+
+          <hr id="web" />
+
+          <div id="web" class="d-flex justify-content-between">
+            <a href="/terms" class="text-decoration-none text-dark"
+              >Terms of use</a
+            >
+            <a href="/privacy" class="text-decoration-none text-dark"
+              >Privacy policy</a
+            >
+            <a href="/cookies-policy" class="text-decoration-none text-dark"
+              >Cookies policy</a
+            >
+            <a href="/refund" class="text-decoration-none text-dark"
+              >Refund policy</a
+            >
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="/js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript">
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 7000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+
+    <!-- <script>
+  var swiper = new Swiper(".mySwiper", {
+    rewind: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script> -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

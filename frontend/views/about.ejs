@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="/css/styles.css" />
+
+    <!-- bootstrap link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- logo icon on title -->
+    <link rel="icon" href="images/fav-icon.png" type="image/svg" />
+    <title>SGI - Steveraton Group Incorporated</title>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6Y3J4MZS6P"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-6Y3J4MZS6P");
+    </script>
+  </head>
+  <body style="background-color: #111c24" class="">
+    <!-- navbar section -->
+    <nav class="">
+      <!-- navbar-section -->
+      <div style="background-color: #111c24" class="navbar-section">
+        <div class="Logo-brand web">
+          <img
+            style="width: 120px !important; padding-bottom: 24px"
+            onclick="location.href='/'"
+            src="images/steve.svg"
+            class="w-75"
+            alt=""
+          />
+        </div>
+
+        <div class="nav-components">
+          <ul id="web">
+            <li id="open-onhover" class="text-light">
+              <a id="first" href="#" class="text-decoration-none text-light">
+                About Us <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+              <div class="sub-menu-1">
+                <ul id="links-hover" class="">
+                  <div class="split-left w-25">
+                    <li class="sublinks">
+                      <a
+                        href="/about"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Who We Are
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/leadership"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Leadership
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/about#sgi-milestone"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >SGI Milestone
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                  </div>
+
+                  <div class="split-right w-25">
+                    <li class="sublinks">
+                      <a
+                        href="/csr"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >CSR
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                  </div>
+                </ul>
+
+                <div
+                  id="down"
+                  class="d-flex justify-content-between align-items-center sub-animate web"
+                >
+                  <div class="logo">
+                    <img style="width: 80px" src="images/steve.svg" alt="" />
+                  </div>
+                  <div class="animation">
+                    <img class="w-75" src="images/animated.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li id="view-onhover" class="text-light">
+              <a href="#" class="text-decoration-none text-light"
+                >Our Businesses <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+              <div class="sub-menu-1">
+                <ul id="links-hover" class="">
+                  <div class="split-left">
+                    <li class="sublinks">
+                      <a
+                        href="/autotech"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Autotech
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >The African auto industry has experienced..</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/technology"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Technology
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >At Brainiac, we're dedicated to ...</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/export"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Export
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >We provide tailored export ...</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/energy"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Energy
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >Explore our cleean energy prowess with ...</span
+                      >
+                    </li>
+                  </div>
+
+                  <div class="split-right w-50">
+                    <li class="sublinks">
+                      <a
+                        href="/finance"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Finance
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >We provide tailored financial services</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/investment"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Investment
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >Comprised of seasoned investment professionals
+                        ...</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/real-estate"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Real Estate
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >At Sgi, we believe that owning a home</span
+                      >
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/mining"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Mining
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                        ></i
+                      ></a>
+                      <span class="text-secondary text-start fs-5"
+                        >The future of innovation is today ...</span
+                      >
+                    </li>
+                  </div>
+                </ul>
+
+                <div
+                  id="down"
+                  class="d-flex justify-content-between align-items-center sub-animate2 web"
+                >
+                  <div class="logo">
+                    <img style="width: 80px" src="images/steve.svg" alt="" />
+                  </div>
+                  <div class="animation">
+                    <img class="w-75" src="images/animated.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li id="drop-onhover" class="text-light d-none">
+              <a href="#" class="text-decoration-none text-light">
+                Investor Relations <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+              <div class="sub-menu-1">
+                <ul id="links-hover" class="">
+                  <div class="split-left">
+                    <li class="sublinks">
+                      <a
+                        href="/performance"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >Performance Report
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                    <li class="sublinks">
+                      <a
+                        href="/report"
+                        class="text-decoration-none text-light d-flex align-items-center"
+                        >2022 Report
+                        <i
+                          class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                        ></i
+                      ></a>
+                    </li>
+                  </div>
+                </ul>
+
+                <div
+                  id="down"
+                  class="d-flex justify-content-between align-items-center sub-animate3 web"
+                >
+                  <div class="logo">
+                    <img style="width: 80px" src="images/steve.svg" alt="" />
+                  </div>
+                  <div class="animation">
+                    <img class="w-75" src="images/animated.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <li class="text-light">
+              <a href="/sustainability" class="text-decoration-none text-light"
+                >Sustainability</a
+              >
+            </li>
+
+            <li class="text-light">
+              <a href="/careers" class="text-decoration-none text-light"
+                >Careers</a
+              >
+            </li>
+
+            <li id="last" class="text-light">
+              <a href="/contact" class="text-decoration-none text-light"
+                >Contact Us</a
+              >
+            </li>
+
+            <li id="last" class="text-light">
+              <a href="/blog" class="text-decoration-none text-light">Blog</a>
+            </li>
+          </ul>
+
+          <ul id="mob" class="">
+            <li id="reveal" class="text-light">
+              <a href="#" class="text-light text-decoration-none"
+                >About Us <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+
+              <ul id="x1" class="ms-5">
+                <li class="sublinks">
+                  <a
+                    href="/about"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >Who We Are
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+                <li class="sublinks">
+                  <a
+                    href="/leadership"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >Leadership
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+                <li class="sublinks">
+                  <a
+                    href="/about#sgi-milestone"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >SGI Milestone
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+                <li class="sublinks">
+                  <a
+                    href="/csr"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >CSR
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+
+            <li id="shown" class="text-light">
+              <a href="#" class="text-light text-decoration-none"
+                >Our Businesses <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+
+              <ul id="y2" class="ms-5">
+                <div class="flex-wrap">
+                  <div class="row">
+                    <div class="col">
+                      <li class="sublinks">
+                        <a
+                          href="/autotech"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Autotech
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/technology"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Technology
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/export"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Export
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/energy"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Energy
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                    </div>
+                    <div class="col">
+                      <li class="sublinks">
+                        <a
+                          href="/finance"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Finance
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/investment"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Investment
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/real-estate"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Real Estate
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                      <li class="sublinks">
+                        <a
+                          href="/mining"
+                          class="text-decoration-none text-light d-flex align-items-center"
+                          >Mining
+                          <i
+                            class="fa-solid fa-arrow-right-long fa-beat ms-4 fs-6"
+                          ></i
+                        ></a>
+                      </li>
+                    </div>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+            <li id="drop" class="d-none text-light">
+              <a href="#" class="text-light text-decoration-none"
+                >Investor Relations <i class="ms-3 fa-solid fa-caret-down"></i
+              ></a>
+
+              <ul id="z3" class="ms-5">
+                <li class="sublinks">
+                  <a
+                    href="/performance"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >Performance Report
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+                <li class="sublinks">
+                  <a
+                    href="/report"
+                    class="text-decoration-none text-light d-flex align-items-center"
+                    >2022 Report
+                    <i
+                      class="fa-solid fa-arrow-right-long fa-beat fs-6 ms-4"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="taxt-light">
+              <a href="/sustainability" class="text-light text-decoration-none"
+                >Sustainability</a
+              >
+            </li>
+            <li class="taxt-light">
+              <a href="/careers" class="text-light text-decoration-none"
+                >Careers</a
+              >
+            </li>
+            <li class="taxt-light">
+              <a href="/contact" class="text-light text-decoration-none"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="covid-restrictions web">
+          <!-- <div class="p-0 m-0 text-light marquee-content">
+            <marquee class="text-light"
+              >*Eid Al Fitr to all our Muslim Family*</marquee
+            >
+            <marquee class="text-light"
+              >*Eid Al Fitr to all our Muslim Family*</marquee
+            >
+            <marquee class="text-light"
+              >*Eid Al Fitr to all our Muslim Family*</marquee
+            >
+          </div> -->
+          <marquee class="covid-text">
+            <div class="marquee-content">
+              <p class="p-0 m-0 text-light">
+                *Eid Al Fitr to all our Muslim Family*
+              </p>
+              <p class="p-0 m-0 text-light">
+                *Eid Al Fitr to all our Muslim Family*
+              </p>
+              <p class="p-0 m-0 text-light">
+                *Eid Al Fitr to all our Muslim Family*
+              </p>
+              <p class="p-0 m-0 text-light">
+                *Eid Al Fitr to all our Muslim Family*
+              </p>
+            </div>
+          </marquee>
+        </div>
+
+        <div
+          style="background-color: #111c24"
+          class="w-100 mobile d-flex align-items-center justify-content-between position-absolute"
+        >
+          <div id="mobile" class="mobile brand p-3 ps-4">
+            <img
+              style="width: 150px"
+              onclick="location.href='index.html'"
+              src="images/steve.svg"
+              class="text-light"
+              alt=""
+            />
+          </div>
+          <div class="icon-box align-items-center ms-auto">
+            <i class="bx bx-menu" id="menu-icon"></i>
+          </div>
+          <div class="covid-restrictions mobile">
+            <marquee class="mb-0 text-light">
+              Happy Ramadan Kareem to all Our Muslim Family
+            </marquee>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div id="page-view" class="sub2">
+        <div class="flex-wrap">
+          <div class="row align-items-center">
+            <div id="mob" class="col-md">
+              <img class="w-100" src="images/illustration.svg" alt="" />
+            </div>
+            <div class="col-md-8 text-light">
+              <h1 class="pb-3 text-light"><%= allWhoWeAre[0].title1 %></h1>
+              <p class="lineh pb-2">
+                <%= allWhoWeAre[0].description1 %>
+              </p>
+            </div>
+            <div id="web" class="col-md">
+              <img class="w-100" src="images/illustration.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div id="web">
+          <div class="flex-wrap w-75">
+            <div class="row align-items-center">
+              <div class="col text-center">
+                <img src="images/sgisgi.svg" alt="" class="object-fit-cover" />
+              </div>
+              <div class="col text-center">
+                <img src="images/svgsvg.svg" alt="" class="object-fit-cover" />
+              </div>
+              <div class="col text-center">
+                <img
+                  src="images/silvine-svg.svg"
+                  alt=""
+                  class="object-fit-cover"
+                />
+              </div>
+
+              <div class="col text-center">
+                <img
+                  src="images/autobuy-svg.svg"
+                  alt=""
+                  class="object-fit-cover"
+                />
+              </div>
+
+              <div class="col text-center">
+                <img
+                  src="images/brainiac-svg.svg"
+                  alt=""
+                  class="object-fit-cover"
+                />
+              </div>
+
+              <div class="col text-center">
+                <img
+                  src="images/trance-agro-svg.svg"
+                  alt=""
+                  class="object-fit-cover w-75"
+                />
+              </div>
+
+              <div class="col text-center">
+                <img
+                  src="images/Advox-svg.svg"
+                  alt=""
+                  class="object-fit-cover"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="mob" class="text-center pt-5 mt-5">
+          <img
+            src="images/silvine-invest.svg"
+            alt=""
+            class="object-fit-cover pb-5 mb-5"
+          />
+        </div>
+      </div>
+
+      <div id="web" class="sub2">
+        <div id="group" class="pb-5">
+          <div id="gmd" style class="text-center">
+            <img id="gmd-img" src="images/gmdd.png" alt="" class="gmd-img" />
+          </div>
+
+          <div class="mock">
+            <img src="images/steve-color.svg" alt="" class="" />
+            <h1 style="font-size: 40px" class="fw-bold text-dark py-4">
+              Stephen O.
+            </h1>
+            <h2 style="color: #f74713" class="fw-bold pb-5">
+              Group Managing Director
+            </h2>
+            <p class="lineh">
+              The journey of Steveraton Group Incorporated and its subsidiaries
+              is an ongoing one, and with the unwavering support of my team and
+              clients, I am confident that we will continue to scale new peaks
+              of excellence for many years to come.
+            </p>
+
+            <div class="text-end">
+              <a
+                href="gmd-message.html"
+                class="text-decoration-none text-secondary pb-5"
+                >More
+                <i
+                  style="color: #f74713"
+                  class="fa-solid fa-arrow-right-long ms-2"
+                ></i
+              ></a>
+            </div>
+          </div>
+
+          <div>
+            <img src="images/frame.png" alt="" class="frame" />
+          </div>
+        </div>
+      </div>
+
+      <div id="mob" class="sub2 cracked">
+        <div id="vary" style class="text-center bg-light">
+          <img id="" src="images/gmdd.png" alt="" class="vary-img" />
+        </div>
+
+        <div class="variant bg-light p-4">
+          <img src="images/steve-color.svg" alt="" class="" />
+          <h1 style="font-size: 40px" class="fw-bold text-dark py-4">
+            Stephen O.
+          </h1>
+          <h2 style="color: #f74713" class="fw-bold pb-5">
+            Group Managing Director
+          </h2>
+          <p class="lineh">
+            The journey of Steveraton Group Incorporated and its subsidiaries is
+            an ongoing one, and with the unwavering support of my team and
+            clients, I am confident that we will continue to scale new peaks of
+            excellence for many years to come.
+          </p>
+
+          <div class="text-end">
+            <a
+              href="gmd-message.html"
+              class="text-decoration-none text-secondary pb-5"
+              >More
+              <i
+                style="color: #f74713"
+                class="fa-solid fa-arrow-right-long ms-2"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sgi-milestone" class="bg-light text-dark">
+      <div class="sub2">
+        <div class="flex-wrap">
+          <div class="row align-items-start justify-content-between">
+            <div id="mob" class="col-md-5">
+              <img src="images/construct.png" alt="" class="w-100" />
+            </div>
+
+            <div class="col-md-6">
+              <h1 class="text-dark pt-5"><%= allWhoWeAre[0].title2 %></h1>
+
+              <p class="pt-5 lineh">
+                <%= allWhoWeAre[0].description2 %>
+              </p>
+              <p class="pt-5 lineh">
+                <%= allWhoWeAre[0].description3 %>
+              </p>
+            </div>
+
+            <div id="web" class="col-md-5">
+              <img src="images/construct.png" alt="" class="w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="">
+      <section>
+        <div class="bg-light text-md-center sub">
+          <img src="images/black-logo.svg" alt="" class="pb-5 mb-5" />
+
+          <div id="ft-links" class="">
+            <a href="#" class="text-dark">Subsidiaries</a>
+
+            <a
+              href="https://autobuyng.com"
+              class="text-decoration-none text-dark sub-link"
+              >Autobuy <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            <a
+              href="https://brainiactech.co/"
+              class="text-decoration-none text-dark sub-link"
+              >Brainiac <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            <a href="#" class="text-decoration-none text-dark sub-link"
+              >Trance-Agro <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            <a
+              href="https://silvineinvestment.com/"
+              class="text-decoration-none text-dark sub-link"
+              >Silvine <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+            <a
+              href="https://advoxconsulting.com"
+              class="text-decoration-none text-dark sub-link"
+              >Advox <i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
+
+          <div
+            id="web"
+            class="d-flex justify-content-between w-100 mt-5 pt-5 pb-2"
+          >
+            <span class=""
+              ><a
+                href="https://brainiactech.co/"
+                class="text-decoration-none text-dark fw-bold"
+                ><i class="fa-regular fa-copyright"></i> Brainiac </a
+              ><span class="text-secondary"> 2024 Steveraton </span></span
+            >
+
+            <a href="#" class="text-decoration-none text-dark"
+              >Plot 46, Bode Thomas Street, Surulere, 101212 Lagos, NG</a
+            >
+
+            <a
+              href="mailto:info@sgincorp.com"
+              class="text-decoration-none fw-bold"
+              >Info@sgincorp.com</a
+            >
+
+            <div class="">
+              <div class="socials ms-auto">
+                <i
+                  onclick="location.href='https://twitter.com/Sgincorp2020'"
+                  style="font-size: 24px"
+                  class="fa-brands fa-square-twitter mx-3"
+                ></i>
+
+                <i
+                  onclick="location.href='http://linkedin.com/company/sgincorp'"
+                  style="font-size: 24px"
+                  class="fa-brands fa-linkedin mx-3"
+                ></i>
+
+                <i
+                  onclick="location.href='https://www.instagram.com/sgincorp/'"
+                  style="font-size: 24px"
+                  class="fa-brands fa-instagram fw-bold mx-3"
+                ></i>
+
+                <i
+                  onclick="location.href='https://www.facebook.com/steveratongroupinc'"
+                  style="font-size: 24px"
+                  class="fa-brands fa-square-facebook mx-3"
+                ></i>
+              </div>
+            </div>
+          </div>
+
+          <div id="mobile" class="mobile">
+            <div class="socials text-end mb-4">
+              <i
+                onclick="location.href='https://twitter.com/Sgincorp2020'"
+                class="fa-brands fa-square-twitter mx-3"
+              ></i>
+
+              <i
+                onclick="location.href='http://linkedin.com/company/sgincorp'"
+                class="fa-brands fa-linkedin mx-3"
+              ></i>
+
+              <i
+                onclick="location.href='https://www.instagram.com/sgincorp/'"
+                class="fa-brands fa-instagram mx-3"
+              ></i>
+
+              <i
+                onclick="location.href='https://www.facebook.com/steveratongroupinc'"
+                class="fa-brands fa-square-facebook mx-3"
+              ></i>
+            </div>
+
+            <div class="d-flex justify-content-between align-items-end">
+              <div class="text-start d-flex flex-column">
+                <a
+                  href="terms.html"
+                  class="mb-4 text-secondary text-decoration-none"
+                >
+                  Terms of use
+                </a>
+                <a
+                  href="privacy.html"
+                  class="mb-4 text-secondary text-decoration-none"
+                >
+                  Privacy policy
+                </a>
+                <a
+                  href="cookies-policy.html"
+                  class="mb-4 text-secondary text-decoration-none"
+                >
+                  Cookies policy
+                </a>
+                <a
+                  href="refund.html"
+                  class="mb-4 text-secondary text-decoration-none"
+                >
+                  Refund policy
+                </a>
+              </div>
+              <div class="text-end">
+                <a href="mailto:info@sgincorp.com" class="text-decoration-none"
+                  >info@sgincorp.com</a
+                >
+
+                <p class="pt-5">
+                  Plot 46, Bode Thomas <br />
+                  Street, Surulere, 101212 <br />
+                  Lagos, NG
+                </p>
+              </div>
+            </div>
+
+            <div class="text-center my-5">
+              <span class="">
+                <a
+                  href="https://brainiactech.co/"
+                  class="text-decoration-none text-dark fw-bold"
+                  ><i class="fa-regular fa-copyright"></i> Brainiac
+                </a>
+                <span class="text-secondary"> 2024 Steveraton </span>
+              </span>
+            </div>
+          </div>
+
+          <hr id="web" />
+
+          <div id="web" class="d-flex justify-content-between">
+            <a href="terms.html" class="text-decoration-none text-dark"
+              >Terms of use</a
+            >
+            <a href="privacy.html" class="text-decoration-none text-dark"
+              >Privacy policy</a
+            >
+            <a href="cookies-policy.html" class="text-decoration-none text-dark"
+              >Cookies policy</a
+            >
+            <a href="refund.html" class="text-decoration-none text-dark"
+              >Refund policy</a
+            >
+          </div>
+        </div>
+      </section>
+    </footer>
+
+    <script src="/js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script type="text/javascript">
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 7000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
